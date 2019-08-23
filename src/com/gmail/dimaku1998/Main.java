@@ -29,6 +29,9 @@ public class Main {
                 right++;
                 i--;
                 count = true;
+                if( i == -1){
+                    break;
+                }
             } else if (left != right && count == false) {
                 left++;
                 right--;
